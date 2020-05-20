@@ -58,7 +58,6 @@ nav a {
 
 #contact:hover {
     color: white;
-    font-size: 1.1em;
 }
 nav a:hover {
     font-size: 1.3em;
@@ -72,20 +71,6 @@ nav a:hover {
     align-items: center;
 }
 
-.Landing::before {
-    content: "";
-    background-image: url(images/bgpattern.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    opacity: 0.1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-}
 
 .Landing img {
     width: 84vh;
@@ -137,7 +122,7 @@ header {
 
 @keyframes move {
     0% {top: 0vh;}
-    60% {top: 3vh;}
+    60% {top: 2vh;}
     100% {top: 0vh;}
 }
 

@@ -38,7 +38,6 @@ nav a {
 }
 
 nav a:hover {
-    font-size: 1.3em;
     color: #f8b400;
 }
 
@@ -66,7 +65,6 @@ header img {
 
 #contact a:hover {
     color: white;
-    font-size: 1.1em;
 }
 
 .desc {
@@ -86,20 +84,7 @@ section {
     padding: 10vh 0;
 }
 
-section::before {
-    content: "";
-    background-image: url(images/bgpattern.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    opacity: 0.08;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-}
+
 .desc {
     width: 430px;
 }
@@ -215,6 +200,7 @@ section::before {
   .closebtn {
       visibility: hidden;
   }
+  
   #menuSection {
       height: auto;
       display: flex;
@@ -238,7 +224,7 @@ section::before {
     flex-wrap: wrap;
     justify-content: center;
     color: #1f1f1f;
-    margin: 10vh 0;
+    margin: 5vh 0 10vh 0;
     width: 70vw;
   }
 
