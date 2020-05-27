@@ -22,7 +22,7 @@ section {
 nav {
     margin: 0 0 5vh 0;
     position: absolute;
-    top: 10vh;
+    top: 8vh;
 }
 
  li {
@@ -45,7 +45,7 @@ nav a {
 #contact {
     position: absolute;
     right: 4vw;
-    top: 9vh;
+    top: 8vh;
     background-color: #f8b400;
     border-radius: 20px;
     text-decoration: none;
@@ -133,7 +133,7 @@ header {
 .promo {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20vh;
+    margin-bottom: 10vw;
 }
 
 button {
@@ -162,7 +162,7 @@ button {
     align-items: center;
     background-color: #1f1f1f;
     color: white;
-    padding: 10vh;
+    padding: 5vh 0 2vh 0;
 }
 
 .share {
@@ -178,7 +178,7 @@ button {
     margin: 2vh 0.7vw;
 }
 
-@media (max-width:600px) {
+@media (max-width:800px) {
     nav {
         top:45%;
     }

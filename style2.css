@@ -237,6 +237,10 @@ section {
       box-shadow: 0 0 20px rgba(34, 34, 34, 0.2);
   }
 
+  .menuItem:hover {
+    box-shadow: 0 0 40px rgba(34, 34, 34, 0.2);
+  }
+
   .menuItem img {
       width: 20vh;
       margin-bottom: 1vh;
@@ -249,11 +253,33 @@ section {
   }
 
   .menuItem p {
-    font-size: 0.4em;
+    font-size: 0.45em;
     text-align: start;
+    color: rgb(73, 73, 73);
+    font-family: 'Source Sans Pro';
   }
 
-@media (max-width:600px) {
+  .contactContainer {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .contactDetail {
+    text-align: start;
+    margin: 15px;
+    background-color: white;
+  }
+  
+  .contactDetail h2 {
+    font-size: 1.3em;
+  }
+
+  .contactDetail p {
+    font-size: 1.2em;
+    color: rgb(73, 73, 73);
+  }
+
+@media (max-width:800px) {
     header {
         position: fixed;
         width: 100%;
@@ -364,7 +390,7 @@ section {
     }
     
     .menuContainer {
-        width: 90vw;
+        width: 98vw;
     }
 
     .menuItem {
